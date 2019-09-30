@@ -45,7 +45,7 @@ def startChecking():
         time.sleep(call_interval) #places process in background for length of call_interval
 
     if goodToDrive==True:
-        file = "Hello.wav"
+        file = "Mossari-Le_Reve_Getty_remix.mp3"
         os.system(file) #plays audio file using system's native audio player
         print("Ready to drive. Number of calls: {}".format(numberCalls))
 startChecking()
